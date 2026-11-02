@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://emmaacedoo.github.io/websites-2/source-1.html</loc>
+    <lastmod>2026-11-02T20:33:52.212Z</lastmod>
+  </url>
+  <url>
     <loc>https://emmaacedoo.github.io/websites-2/index.html</loc>
-    <lastmod>2026-11-02T16:24:49.361Z</lastmod>
+    <lastmod>2026-11-02T20:30:43.107Z</lastmod>
   </url>
   <url>
     <loc>https://emmaacedoo.github.io/websites-2/about.html</loc>
     <lastmod>2026-11-02T16:31:23.278Z</lastmod>
+  </url>
+  <url>
+    <loc>https://emmaacedoo.github.io/websites-2/source-2.html</loc>
+    <lastmod>2026-11-02T20:34:05.208Z</lastmod>
   </url>
 </urlset>

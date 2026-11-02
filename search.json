@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Billboard Graphic",
+    "objectID": "source-1.html",
+    "href": "source-1.html",
+    "title": "Source 1",
     "section": "",
-    "text": "library(tidyverse)"
+    "text": "Source 1\nThis is my first source."
   },
   {
     "objectID": "about.html",
