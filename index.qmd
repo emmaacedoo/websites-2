@@ -1,60 +1,16 @@
-
 ---
 title: "Billboard Graphic"
 ---
 
 ```{r}
-#| message: false
-library(tidyverse)
+#| label: setup
+#| include: false
+
+library(knitr)
 ```
 
 ```{r}
 #| echo: false
-#| warning: false
-#| fig-width: 11
-#| fig-height: 6
 
-billboard |>
-  filter(
-    track %in% c(
-      "Breathe",
-      "Everything You Want",
-      "I Wanna Know",
-      "Maria, Maria"
-    )
-  ) |>
-  pivot_longer(
-    cols = starts_with("wk"),
-    names_to = "week",
-    values_to = "rank",
-    values_drop_na = TRUE
-  ) |>
-  mutate(
-    week = as.numeric(str_remove(week, "wk"))
-  ) |>
-  ggplot(aes(x = week, y = rank, color = track)) +
-  geom_line(linewidth = 1.2) +
-  geom_point(size = 1.5, alpha = 0.7) +
-  scale_y_reverse(breaks = seq(1, 100, 10)) +
-  scale_color_manual(values = c(
-    "#FF4FA3",
-    "#8B5CF6",
-    "#00C9A7",
-    "#FFB703"
-  )) +
-  labs(
-    title = "The Race to #1",
-    subtitle = "Billboard Hot 100 | 2000",
-    x = "Weeks on the chart",
-    y = "Billboard ranking",
-    color = "Song",
-    caption = "Source: tidyr billboard dataset"
-  ) +
-  theme_minimal(base_size = 14) +
-  theme(
-    plot.title = element_text(face = "bold", size = 22),
-    plot.subtitle = element_text(color = "gray40"),
-    legend.position = "bottom",
-    panel.grid.minor = element_blank()
-  )
+include_graphics("billboard.png")
 ```

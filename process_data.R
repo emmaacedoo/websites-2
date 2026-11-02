@@ -14,6 +14,8 @@ top_songs <- billboard |>
     values_to = "rank",
     values_drop_na = TRUE
   ) |>
-  mutate(
+mutate(
     week = as.numeric(str_remove(week, "wk"))
   )
+
+write_rds(top_songs, file = "clean_data.rds")

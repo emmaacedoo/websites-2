@@ -1,5 +1,10 @@
 ---
-Source 2---
 title: "Source 1"
 format: html
+---
+
+# Source 1
+
+This is my first source.
+
 ---
