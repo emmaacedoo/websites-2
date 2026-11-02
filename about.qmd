@@ -1,5 +1,10 @@
+
 ---
 title: "About"
 ---
 
-About this site
+## About Me
+
+My name is **Emma Acedo Lapieza**, and I am a student at *New College of Florida*, majoring in Applied Mathematics.
+
+[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info)
